@@ -61,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5857E1E020E05E9A00B1C600 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58D6FC9C20DF961B005D64FC /* SmoothButton.swift */,
+				58D6FD9B20DF9805005D64FC /* SwiftIconFont */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		58D6FC8720DF960F005D64FC = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				58D6FDB420DF9898005D64FC /* LICENSE.md */,
-				58D6FC9C20DF961B005D64FC /* SmoothButton.swift */,
 				58D6FC9420DF960F005D64FC /* SmoothButton.h */,
 				58D6FDC220DF993B005D64FC /* Example */,
-				58D6FD9B20DF9805005D64FC /* SwiftIconFont */,
+				5857E1E020E05E9A00B1C600 /* Classes */,
 				58D6FDB920DF991C005D64FC /* Resources */,
 				58D6FDB720DF9904005D64FC /* Assets */,
 				58D6FDB820DF9915005D64FC /* .gitignore */,

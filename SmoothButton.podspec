@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "A custom Button made in Swift subclass of UIControl to easily style buttons."
+  s.description  = "A custom button made in Swift subclass of UIControl to easily style buttons."
 
   s.homepage     = "https://cocoapods.org/pods/SmoothButton"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,9 +89,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = "SmoothButton/*.{swift}"
-  # s.source_files  = "Classes", "SmoothButton/**/*.swift"
-  s.exclude_files = "Classes/Exclude"
+  # s.source_files  = "SmoothButton/Classes/**/*.{swift}"
+  s.source_files  = "Classes", "SmoothButton/**/*.swift"
+  # s.exclude_files = "Classes/Exclude"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   s.resources = "SmoothButton/**/*.{ttf,xib}"
-  # s.resources = "SmoothButton/Resources"
+  # s.resources = "SmoothButton/Resources/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
