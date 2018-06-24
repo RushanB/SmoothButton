@@ -51,9 +51,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Matthew Weldon" => "matt@smooth.tech", "Rushan Benazir" => "rush@smooth.tech" }
+  # s.author             = { "Rushan Benazir" => "rush@smooth.tech" }
   # Or just: s.author    = "Rushan Benazir"
-  # s.authors            = { "Rushan Benazir" => "Rushanben@hotmail.com" }
+  s.authors             = { "Matthew Weldon" => "matt@smooth.tech", "Rushan Benazir" => "rush@smooth.tech" }
   # s.social_media_url   = "http://twitter.com/Rushan Benazir"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "9.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'https://github.com/RushanB/SmoothButton.git', :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/RushanB/SmoothButton.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "SmoothButton/Classes/**/*.{swift}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
