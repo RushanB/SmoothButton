@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "A custom Button made in Swift subclass of UIControl to easily style buttons."
 
-  s.homepage     = "https://github.com/RushanB/SmoothButton" #"https://cocoapods.org/pods/SmoothButton"
+  s.homepage     = "https://cocoapods.org/pods/SmoothButton"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
+  s.license      = { :type => 'MIT', :file => 'SmoothButton/LICENSE.md' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
