@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "SmoothButton"
   s.version      = "0.0.1"
   s.summary      = "A custom buttom subclass of UIControl."
-
+  s.swift_version = "4.0"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "SmoothButton/*.{swift}"
-  s.source_files  = "Classes", "SmoothButton/**/*.swift"
+  # s.source_files  = "Classes", "SmoothButton/**/*.swift"
   s.exclude_files = "Classes/Exclude"
   # s.exclude_files = "Classes/Exclude"
 
@@ -132,7 +132,7 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   # s.requires_arc = true
-
+  # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
