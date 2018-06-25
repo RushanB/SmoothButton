@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://cocoapods.org/pods/SmoothButton"
   s.license      = { :type => 'MIT', :file => 'SmoothButton/LICENSE.md' }
   s.authors             = { "Matthew Weldon" => "matt@smooth.tech", "Rushan Benazir" => "rush@smooth.tech" }
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/RushanB/SmoothButton.git", :tag => "#{s.version}" }
   s.source_files  = "Classes", "SmoothButton/**/*.swift"
 # s.source_files  = "SmoothButton/**/*.{swift}"
