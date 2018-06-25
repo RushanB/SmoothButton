@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.authors             = { "Matthew Weldon" => "matt@smooth.tech", "Rushan Benazir" => "rush@smooth.tech" }
   s.ios.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/RushanB/SmoothButton.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes", "SmoothButton/**/*.swift"
-# s.source_files  = "SmoothButton/**/*.{swift}"
+  s.source_files = "SmoothButton/**/*.{swift}"
+# s.source_files  = "SmoothButton/*.{swift}"
   s.resources = "SmoothButton/**/*.{ttf,xib}"
+
 end

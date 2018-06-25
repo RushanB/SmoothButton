@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		58D6FC9620DF960F005D64FC /* SmoothButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D6FC9420DF960F005D64FC /* SmoothButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58D6FC9D20DF961B005D64FC /* SmoothButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FC9C20DF961B005D64FC /* SmoothButton.swift */; };
-		58D6FDA720DF9805005D64FC /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 58D6FD9C20DF9805005D64FC /* LICENSE.md */; };
+		58D6FDA720DF9805005D64FC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 58D6FD9C20DF9805005D64FC /* LICENSE */; };
 		58D6FDA820DF9805005D64FC /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9D20DF9805005D64FC /* Octicon.swift */; };
 		58D6FDA920DF9805005D64FC /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9E20DF9805005D64FC /* Iconic.swift */; };
 		58D6FDAA20DF9805005D64FC /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9F20DF9805005D64FC /* FontLoader.swift */; };
@@ -27,7 +27,7 @@
 		58D6FC9420DF960F005D64FC /* SmoothButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmoothButton.h; sourceTree = "<group>"; };
 		58D6FC9520DF960F005D64FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58D6FC9C20DF961B005D64FC /* SmoothButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothButton.swift; sourceTree = "<group>"; };
-		58D6FD9C20DF9805005D64FC /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		58D6FD9C20DF9805005D64FC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		58D6FD9D20DF9805005D64FC /* Octicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octicon.swift; sourceTree = "<group>"; };
 		58D6FD9E20DF9805005D64FC /* Iconic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iconic.swift; sourceTree = "<group>"; };
 		58D6FD9F20DF9805005D64FC /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		58D6FD9B20DF9805005D64FC /* SwiftIconFont */ = {
 			isa = PBXGroup;
 			children = (
-				58D6FD9C20DF9805005D64FC /* LICENSE.md */,
+				58D6FD9C20DF9805005D64FC /* LICENSE */,
 				58D6FD9D20DF9805005D64FC /* Octicon.swift */,
 				58D6FD9E20DF9805005D64FC /* Iconic.swift */,
 				58D6FD9F20DF9805005D64FC /* FontLoader.swift */,
@@ -218,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D6FDA720DF9805005D64FC /* LICENSE.md in Resources */,
+				58D6FDA720DF9805005D64FC /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

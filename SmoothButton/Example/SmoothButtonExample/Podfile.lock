@@ -1,0 +1,16 @@
+PODS:
+  - SmoothButton (0.0.1)
+
+DEPENDENCIES:
+  - SmoothButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SmoothButton
+
+SPEC CHECKSUMS:
+  SmoothButton: b3191c0bdba16ff40bdd2934db9ddd93edaa9c9f
+
+PODFILE CHECKSUM: 2f727dfbc365254b2862b33e6b93a167ad527af9
+
+COCOAPODS: 1.5.3
