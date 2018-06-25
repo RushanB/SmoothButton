@@ -7,47 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A6C51926801BDD23CB812A07DA88526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B0E9FDC3D1FDC11ED32B2F7C5BFBE20C /* Pods-SmoothButtonExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8468EE5A6A7CAEA0194B516ECAA6F /* Pods-SmoothButtonExample-dummy.m */; };
-		F7125EBC349F57EAA80ECE73963E8DB3 /* Pods-SmoothButtonExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D97D2D3309EB2EB920EBD6A5C6DCCF8 /* Pods-SmoothButtonExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F006BE1624454DFA186914724AC02EC /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5998FBE38EDBC4DE88740F29D8AA6E3 /* Ionicons.ttf */; };
+		0F5E6D7FF6D1A0CD90BD706574754612 /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 365CB16CE81438322FECB114F77BC756 /* themify.ttf */; };
+		1A475C2B17C21F44D476089A602DF434 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E44077222E79BBDFB396DA06C09D2 /* Iconic.swift */; };
+		1B3491D1324D5043EE1F36C88D0668A7 /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49797E61A63BE9A33F17224FAFA329CE /* MaterialIcon.swift */; };
+		224686BF310F22430197013EF748F194 /* SmoothButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 339DD7034F4D293E160774D3261EAC15 /* SmoothButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D64B217953F99DA2520A417846E15B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2FC3A2CBE54D8B6FD43B5DA1C363B75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49D1807F45C2DC32CF50C588A214EF /* AppDelegate.swift */; };
+		31325E59EEC44D64D32898E2001B4983 /* SmoothButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E356B058417C2E1ED096E7263655F1 /* SmoothButton.swift */; };
+		35BDC17C2A5744D09F7D4E68DB022B13 /* ThemifyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC0CD5CA0BB7B1D25BA51B102A2A13 /* ThemifyIcon.swift */; };
+		41BFB2330A3D1247F956CCC5E84E3E1D /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BACA48394183C1B5F2BBE671D12053 /* SwiftIconLabel.swift */; };
+		4A1B2FEDF466F839A53B03DC4F14D995 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A3A67BEE4A49279AE9EE56D82DD350 /* Ionicons.ttf */; };
+		4F5A40D865ABE9F7F4FA4E51F78A39E6 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E705E542C8AB2BF84AF7F0226B08F4B /* MaterialIcons-Regular.ttf */; };
+		4FD677A7AB1019D88A384BA048B9CD71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		56303C28BAB3FA1A06906D41F0C50EAA /* SmoothButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F78AAEECC02562A28E3CF1489889A1 /* SmoothButton.xib */; };
+		5D17C88A294F9B3358B63135CF9BE1CF /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0811602A5A4FEB074B12C0481ED5263 /* map-icons.ttf */; };
+		613B567CD67C19B7DECB34872CB82ED3 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE99C7D0A08522373E8E19BB20DF826F /* MaterialIcons-Regular.ttf */; };
+		6D5FCB4BC9DE124C6EDD276CDB2947C2 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0841846E3397EEF36D94B9020E7F3254 /* FontAwesome.ttf */; };
+		725FFD96392D068381D71052F44521F6 /* SmoothButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C7A62A5C392A40E567B39F9E73CA96 /* SmoothButton.xib */; };
+		76C22ED1DAB6DCF259C3BA768DF84540 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B813820BAD17B4CBAFE869097F2884BE /* FontAwesome.ttf */; };
+		7ABD238B70B2AA8C83BBED797A3EE377 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF063EDA7E4F0633FD622F66D022F2E4 /* FontLoader.swift */; };
+		7B8F1CFB26A4091FF5DCCF57DFBB1634 /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3AF8128980933B380E1AD1557DCB29 /* Octicon.swift */; };
+		89A4BF8248A56E748B71F5F69DA14E71 /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD0967BB00FC8065971F2ECB00F64B2 /* themify.ttf */; };
+		8B1E25C740013A57EB43C2EC74FD3804 /* Pods-SmoothButtonExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8468EE5A6A7CAEA0194B516ECAA6F /* Pods-SmoothButtonExample-dummy.m */; };
+		8CF1C79BBE451C917C1847409540833D /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D79DF1CFA9006FC3643925C55F4BCF2 /* open-iconic.ttf */; };
+		9FCDE7429A590E2650BAA9CE183551E9 /* SmoothButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C513CBC475670B622255BE912096F26 /* SmoothButton-dummy.m */; };
+		A12498EF25E31AF59E04F354D66EBF3A /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD286285E6D2A933F030107CE06A903B /* IonIcons.swift */; };
+		A7D2BDBCD7C0881A8675A13A00EEB30E /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A50D30D43DB1EF26646EDFE6D75DC51 /* map-icons.ttf */; };
+		BA3C8330DE8B4B88C5E481FEC992065A /* Pods-SmoothButtonExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D97D2D3309EB2EB920EBD6A5C6DCCF8 /* Pods-SmoothButtonExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0CC56FAB3D19E8EBE057DA2047343F8 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57DA7E4859538E78259750A9993C18 /* SwiftIconFont.swift */; };
+		C0F543CB8F4D9D90D83C6111A25CCDDC /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834141B72FCDBCFAFC7454CA2325BC0 /* FontAwesome.swift */; };
+		CDC2D300614D68D292B5649D19BB4577 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D0DB1D7B632A96C8483B00CC60D88CE /* octicons.ttf */; };
+		E447304F6F664C3D9D88028F7A805120 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC1318339B2DDA68C3ABCF45BF8BD6C4 /* open-iconic.ttf */; };
+		E9F9B99A4072AA8E47D0E8B99B3B1159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406BC0ED20523509161C72CD7F75715 /* ViewController.swift */; };
+		EB89120E2175A708E0494FD965CABA39 /* MapIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D150FDA350B5D93F12991D61BD1DD /* MapIcon.swift */; };
+		FEDE786B6CDCB57D457AC031CC4B86F9 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 709950FEB87F0B7971D9E16427217195 /* octicons.ttf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E4A67728A567AF8851218477F92B24C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06108C00EADBF463071BC12FF0C7F247;
+			remoteInfo = SmoothButton;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		02B2C99A10B3B6142A99F61953C35A84 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = SmoothButton/SmoothButton/Resources/octicons.ttf; sourceTree = "<group>"; };
-		08264BDCAD5C99B3FDBC8F1A1FD7421A /* SmoothButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SmoothButton.xib; path = SmoothButton/SmoothButton/Resources/SmoothButton.xib; sourceTree = "<group>"; };
-		0DE8DA0F6BA3DD6743842AAF2A5F7525 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "SmoothButton/SmoothButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
-		1E670218E39864A1B19CFA2805EC32F9 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = SmoothButton/SmoothButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		078DD7465E3B4958EB9C4212BDDD898F /* Pods_SmoothButtonExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmoothButtonExample.framework; path = "Pods-SmoothButtonExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0841846E3397EEF36D94B9020E7F3254 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		10E356B058417C2E1ED096E7263655F1 /* SmoothButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmoothButton.swift; path = SmoothButton/Classes/SmoothButton.swift; sourceTree = "<group>"; };
+		12A3A67BEE4A49279AE9EE56D82DD350 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		1A223415907E6FE8D4949951BD3BC7E1 /* SmoothButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmoothButton.modulemap; sourceTree = "<group>"; };
+		1D0DB1D7B632A96C8483B00CC60D88CE /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = SmoothButton/Resources/octicons.ttf; sourceTree = "<group>"; };
+		23DBD68C4A161BC167816E693A92A696 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E7F27D2DADA763518392AAAF912FA4 /* Pods-SmoothButtonExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmoothButtonExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2D57DA7E4859538E78259750A9993C18 /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = SmoothButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
+		339DD7034F4D293E160774D3261EAC15 /* SmoothButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmoothButton-umbrella.h"; sourceTree = "<group>"; };
 		35D1C4FB502AF203098051DD890B9436 /* Pods-SmoothButtonExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmoothButtonExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		365CB16CE81438322FECB114F77BC756 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = SmoothButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		371E684231C40E88980EAAE39AF85F97 /* SmoothButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmoothButton-prefix.pch"; sourceTree = "<group>"; };
+		3A50D30D43DB1EF26646EDFE6D75DC51 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
+		3D79DF1CFA9006FC3643925C55F4BCF2 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
 		3D97D2D3309EB2EB920EBD6A5C6DCCF8 /* Pods-SmoothButtonExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmoothButtonExample-umbrella.h"; sourceTree = "<group>"; };
 		40121C325964570FACF383F50027CB94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56205F2E5AB1800F05DC75356D36E3C7 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = SmoothButton/SmoothButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		4406BC0ED20523509161C72CD7F75715 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SmoothButton/Example/SmoothButtonExample/SmoothButtonExample/ViewController.swift; sourceTree = "<group>"; };
+		494D150FDA350B5D93F12991D61BD1DD /* MapIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapIcon.swift; path = SmoothButton/Classes/SwiftIconFont/MapIcon.swift; sourceTree = "<group>"; };
+		49797E61A63BE9A33F17224FAFA329CE /* MaterialIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialIcon.swift; path = SmoothButton/Classes/SwiftIconFont/MaterialIcon.swift; sourceTree = "<group>"; };
 		5B8F3D867EAE9E68749D143CF0E58533 /* Pods-SmoothButtonExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmoothButtonExample-frameworks.sh"; sourceTree = "<group>"; };
-		5CBD8C9B9BF257AB0A3CBA2941EB830C /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "SmoothButton/SmoothButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		60BACA48394183C1B5F2BBE671D12053 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = SmoothButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C513CBC475670B622255BE912096F26 /* SmoothButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmoothButton-dummy.m"; sourceTree = "<group>"; };
+		6E705E542C8AB2BF84AF7F0226B08F4B /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		709950FEB87F0B7971D9E16427217195 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/octicons.ttf; sourceTree = "<group>"; };
+		73F78AAEECC02562A28E3CF1489889A1 /* SmoothButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SmoothButton.xib; path = SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/SmoothButton.xib; sourceTree = "<group>"; };
 		76ACDDFA5CE991869AB58522B7B79AC5 /* Pods-SmoothButtonExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmoothButtonExample-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96AFE96CA181BE7C87ACEF2E0AE00A08 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "SmoothButton/SmoothButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
-		9EC036660DDF179F85907FE70F1E3B3B /* Pods_SmoothButtonExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmoothButtonExample.framework; path = "Pods-SmoothButtonExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C73CE14AB011E0DE376A3D4BC3D4B93 /* SmoothButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmoothButton.framework; path = SmoothButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C7A62A5C392A40E567B39F9E73CA96 /* SmoothButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SmoothButton.xib; path = SmoothButton/Resources/SmoothButton.xib; sourceTree = "<group>"; };
 		A7B8468EE5A6A7CAEA0194B516ECAA6F /* Pods-SmoothButtonExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmoothButtonExample-dummy.m"; sourceTree = "<group>"; };
-		AF287BB068778516D0A9F0409116BB61 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = SmoothButton/SmoothButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		A8BC0CD5CA0BB7B1D25BA51B102A2A13 /* ThemifyIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemifyIcon.swift; path = SmoothButton/Classes/SwiftIconFont/ThemifyIcon.swift; sourceTree = "<group>"; };
+		AC1318339B2DDA68C3ABCF45BF8BD6C4 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "SmoothButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		ACD0967BB00FC8065971F2ECB00F64B2 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = SmoothButton/Example/SmoothButtonExample/Pods/SmoothButton/SmoothButton/SmoothButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		B813820BAD17B4CBAFE869097F2884BE /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = SmoothButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		BB1E44077222E79BBDFB396DA06C09D2 /* Iconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Iconic.swift; path = SmoothButton/Classes/SwiftIconFont/Iconic.swift; sourceTree = "<group>"; };
+		BC49D1807F45C2DC32CF50C588A214EF /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SmoothButton/Example/SmoothButtonExample/SmoothButtonExample/AppDelegate.swift; sourceTree = "<group>"; };
+		C5998FBE38EDBC4DE88740F29D8AA6E3 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = SmoothButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		CE99C7D0A08522373E8E19BB20DF826F /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "SmoothButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		CEDD2B22E2D22CFD7E2AEDEC6B726C15 /* SmoothButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmoothButton.xcconfig; sourceTree = "<group>"; };
 		D70299BB09492B91EE1F1A8E38B931C0 /* Pods-SmoothButtonExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmoothButtonExample.release.xcconfig"; sourceTree = "<group>"; };
+		D834141B72FCDBCFAFC7454CA2325BC0 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = SmoothButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		DD286285E6D2A933F030107CE06A903B /* IonIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IonIcons.swift; path = SmoothButton/Classes/SwiftIconFont/IonIcons.swift; sourceTree = "<group>"; };
+		DF063EDA7E4F0633FD622F66D022F2E4 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = SmoothButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
+		E0811602A5A4FEB074B12C0481ED5263 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "SmoothButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
 		E22E9D799B75316397ADA92CF2A76CC7 /* Pods-SmoothButtonExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmoothButtonExample.modulemap"; sourceTree = "<group>"; };
+		ED3AF8128980933B380E1AD1557DCB29 /* Octicon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Octicon.swift; path = SmoothButton/Classes/SwiftIconFont/Octicon.swift; sourceTree = "<group>"; };
 		F0D772BDC3318A34B22C2672F70AB868 /* Pods-SmoothButtonExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmoothButtonExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D92E4C75FCB9C9856577EE7D1E0D928B /* Frameworks */ = {
+		B8C95563580FA1A469008966C3B4647A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A6C51926801BDD23CB812A07DA88526 /* Foundation.framework in Frameworks */,
+				4FD677A7AB1019D88A384BA048B9CD71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C587F1DB83C75A5ABBDEDAA039C9027F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D64B217953F99DA2520A417846E15B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A99305E7BAE3A6BBEF25E2AF6072B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				488F446EBC0E7C43C09B892E3FCE66A4 /* SmoothButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		171000EBC0569D7408446398AC52797D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DBD68C4A161BC167816E693A92A696 /* Info.plist */,
+				1A223415907E6FE8D4949951BD3BC7E1 /* SmoothButton.modulemap */,
+				CEDD2B22E2D22CFD7E2AEDEC6B726C15 /* SmoothButton.xcconfig */,
+				6C513CBC475670B622255BE912096F26 /* SmoothButton-dummy.m */,
+				371E684231C40E88980EAAE39AF85F97 /* SmoothButton-prefix.pch */,
+				339DD7034F4D293E160774D3261EAC15 /* SmoothButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmoothButton";
+			sourceTree = "<group>";
+		};
+		177AF4F06F60188B7A080BFD3A8B4FE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0841846E3397EEF36D94B9020E7F3254 /* FontAwesome.ttf */,
+				B813820BAD17B4CBAFE869097F2884BE /* FontAwesome.ttf */,
+				12A3A67BEE4A49279AE9EE56D82DD350 /* Ionicons.ttf */,
+				C5998FBE38EDBC4DE88740F29D8AA6E3 /* Ionicons.ttf */,
+				3A50D30D43DB1EF26646EDFE6D75DC51 /* map-icons.ttf */,
+				E0811602A5A4FEB074B12C0481ED5263 /* map-icons.ttf */,
+				6E705E542C8AB2BF84AF7F0226B08F4B /* MaterialIcons-Regular.ttf */,
+				CE99C7D0A08522373E8E19BB20DF826F /* MaterialIcons-Regular.ttf */,
+				709950FEB87F0B7971D9E16427217195 /* octicons.ttf */,
+				1D0DB1D7B632A96C8483B00CC60D88CE /* octicons.ttf */,
+				3D79DF1CFA9006FC3643925C55F4BCF2 /* open-iconic.ttf */,
+				AC1318339B2DDA68C3ABCF45BF8BD6C4 /* open-iconic.ttf */,
+				A2C7A62A5C392A40E567B39F9E73CA96 /* SmoothButton.xib */,
+				73F78AAEECC02562A28E3CF1489889A1 /* SmoothButton.xib */,
+				ACD0967BB00FC8065971F2ECB00F64B2 /* themify.ttf */,
+				365CB16CE81438322FECB114F77BC756 /* themify.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		451C5FED9CAE474A541C61CA22F33882 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,19 +179,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5863808C212CC461C6BA4E0634B6BDD5 /* Resources */ = {
+		488F446EBC0E7C43C09B892E3FCE66A4 /* SmoothButton */ = {
 			isa = PBXGroup;
 			children = (
-				56205F2E5AB1800F05DC75356D36E3C7 /* FontAwesome.ttf */,
-				1E670218E39864A1B19CFA2805EC32F9 /* Ionicons.ttf */,
-				96AFE96CA181BE7C87ACEF2E0AE00A08 /* map-icons.ttf */,
-				5CBD8C9B9BF257AB0A3CBA2941EB830C /* MaterialIcons-Regular.ttf */,
-				02B2C99A10B3B6142A99F61953C35A84 /* octicons.ttf */,
-				0DE8DA0F6BA3DD6743842AAF2A5F7525 /* open-iconic.ttf */,
-				08264BDCAD5C99B3FDBC8F1A1FD7421A /* SmoothButton.xib */,
-				AF287BB068778516D0A9F0409116BB61 /* themify.ttf */,
+				BC49D1807F45C2DC32CF50C588A214EF /* AppDelegate.swift */,
+				D834141B72FCDBCFAFC7454CA2325BC0 /* FontAwesome.swift */,
+				DF063EDA7E4F0633FD622F66D022F2E4 /* FontLoader.swift */,
+				BB1E44077222E79BBDFB396DA06C09D2 /* Iconic.swift */,
+				DD286285E6D2A933F030107CE06A903B /* IonIcons.swift */,
+				494D150FDA350B5D93F12991D61BD1DD /* MapIcon.swift */,
+				49797E61A63BE9A33F17224FAFA329CE /* MaterialIcon.swift */,
+				ED3AF8128980933B380E1AD1557DCB29 /* Octicon.swift */,
+				10E356B058417C2E1ED096E7263655F1 /* SmoothButton.swift */,
+				2D57DA7E4859538E78259750A9993C18 /* SwiftIconFont.swift */,
+				60BACA48394183C1B5F2BBE671D12053 /* SwiftIconLabel.swift */,
+				A8BC0CD5CA0BB7B1D25BA51B102A2A13 /* ThemifyIcon.swift */,
+				4406BC0ED20523509161C72CD7F75715 /* ViewController.swift */,
+				177AF4F06F60188B7A080BFD3A8B4FE9 /* Resources */,
+				171000EBC0569D7408446398AC52797D /* Support Files */,
 			);
-			name = Resources;
+			name = SmoothButton;
+			path = SmoothButton;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -76,19 +207,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B186A564F36DC6970D78AFED20F86A9E /* Pods */,
-				C75280EB3B8D3FACD44B94720217C319 /* Products */,
+				0A99305E7BAE3A6BBEF25E2AF6072B1A /* Pods */,
+				F4705991D845AFAC88B539607AC444E9 /* Products */,
 				451C5FED9CAE474A541C61CA22F33882 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		82ACDD801AB3D46F2AD3CE37B91E5DC2 /* SmoothButton */ = {
-			isa = PBXGroup;
-			children = (
-				5863808C212CC461C6BA4E0634B6BDD5 /* Resources */,
-			);
-			name = SmoothButton;
-			path = SmoothButton;
 			sourceTree = "<group>";
 		};
 		8AA71C86FD8C6B9E59953224C3D704F7 /* Pods-SmoothButtonExample */ = {
@@ -109,28 +231,12 @@
 			path = "Target Support Files/Pods-SmoothButtonExample";
 			sourceTree = "<group>";
 		};
-		B186A564F36DC6970D78AFED20F86A9E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				82ACDD801AB3D46F2AD3CE37B91E5DC2 /* SmoothButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C75280EB3B8D3FACD44B94720217C319 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9EC036660DDF179F85907FE70F1E3B3B /* Pods_SmoothButtonExample.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -141,35 +247,71 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F4705991D845AFAC88B539607AC444E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078DD7465E3B4958EB9C4212BDDD898F /* Pods_SmoothButtonExample.framework */,
+				9C73CE14AB011E0DE376A3D4BC3D4B93 /* SmoothButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9F0FD691C01C3D0E9347B07919FD6A07 /* Headers */ = {
+		8C861679A7A90303DAF75CEB2896800F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7125EBC349F57EAA80ECE73963E8DB3 /* Pods-SmoothButtonExample-umbrella.h in Headers */,
+				BA3C8330DE8B4B88C5E481FEC992065A /* Pods-SmoothButtonExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5BCDF519925570332CB352A80F7081 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224686BF310F22430197013EF748F194 /* SmoothButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3BE98378B5DFEC61C9187501B3E3B66F /* Pods-SmoothButtonExample */ = {
+		06108C00EADBF463071BC12FF0C7F247 /* SmoothButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 275649E0164D8F45211725EA3B42C8BA /* Build configuration list for PBXNativeTarget "Pods-SmoothButtonExample" */;
+			buildConfigurationList = 729AD2E3E971681591CD2A73EC21768A /* Build configuration list for PBXNativeTarget "SmoothButton" */;
 			buildPhases = (
-				6A409B571197351AE0C8CE7D743F258C /* Sources */,
-				D92E4C75FCB9C9856577EE7D1E0D928B /* Frameworks */,
-				9F0FD691C01C3D0E9347B07919FD6A07 /* Headers */,
+				9D4346D79B99FF0701D8DDA0FE162054 /* Sources */,
+				C587F1DB83C75A5ABBDEDAA039C9027F /* Frameworks */,
+				FCBDA999DF474553EDE077A4C36BB78C /* Resources */,
+				9F5BCDF519925570332CB352A80F7081 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SmoothButton;
+			productName = SmoothButton;
+			productReference = 9C73CE14AB011E0DE376A3D4BC3D4B93 /* SmoothButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		098BAAE230AF2BCA973DA65492A73101 /* Pods-SmoothButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595BB73E6C425C7CAEA8F99F465C2A3D /* Build configuration list for PBXNativeTarget "Pods-SmoothButtonExample" */;
+			buildPhases = (
+				BC4F31637FE78A2A4FDC978103FEF8D9 /* Sources */,
+				B8C95563580FA1A469008966C3B4647A /* Frameworks */,
+				8C861679A7A90303DAF75CEB2896800F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5464C5F061930B77DE4FDCEA7CDA5FAC /* PBXTargetDependency */,
+			);
 			name = "Pods-SmoothButtonExample";
 			productName = "Pods-SmoothButtonExample";
-			productReference = 9EC036660DDF179F85907FE70F1E3B3B /* Pods_SmoothButtonExample.framework */;
+			productReference = 078DD7465E3B4958EB9C4212BDDD898F /* Pods_SmoothButtonExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -189,27 +331,154 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C75280EB3B8D3FACD44B94720217C319 /* Products */;
+			productRefGroup = F4705991D845AFAC88B539607AC444E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BE98378B5DFEC61C9187501B3E3B66F /* Pods-SmoothButtonExample */,
+				098BAAE230AF2BCA973DA65492A73101 /* Pods-SmoothButtonExample */,
+				06108C00EADBF463071BC12FF0C7F247 /* SmoothButton */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		FCBDA999DF474553EDE077A4C36BB78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5FCB4BC9DE124C6EDD276CDB2947C2 /* FontAwesome.ttf in Resources */,
+				76C22ED1DAB6DCF259C3BA768DF84540 /* FontAwesome.ttf in Resources */,
+				4A1B2FEDF466F839A53B03DC4F14D995 /* Ionicons.ttf in Resources */,
+				0F006BE1624454DFA186914724AC02EC /* Ionicons.ttf in Resources */,
+				A7D2BDBCD7C0881A8675A13A00EEB30E /* map-icons.ttf in Resources */,
+				5D17C88A294F9B3358B63135CF9BE1CF /* map-icons.ttf in Resources */,
+				4F5A40D865ABE9F7F4FA4E51F78A39E6 /* MaterialIcons-Regular.ttf in Resources */,
+				613B567CD67C19B7DECB34872CB82ED3 /* MaterialIcons-Regular.ttf in Resources */,
+				FEDE786B6CDCB57D457AC031CC4B86F9 /* octicons.ttf in Resources */,
+				CDC2D300614D68D292B5649D19BB4577 /* octicons.ttf in Resources */,
+				8CF1C79BBE451C917C1847409540833D /* open-iconic.ttf in Resources */,
+				E447304F6F664C3D9D88028F7A805120 /* open-iconic.ttf in Resources */,
+				725FFD96392D068381D71052F44521F6 /* SmoothButton.xib in Resources */,
+				56303C28BAB3FA1A06906D41F0C50EAA /* SmoothButton.xib in Resources */,
+				89A4BF8248A56E748B71F5F69DA14E71 /* themify.ttf in Resources */,
+				0F5E6D7FF6D1A0CD90BD706574754612 /* themify.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6A409B571197351AE0C8CE7D743F258C /* Sources */ = {
+		9D4346D79B99FF0701D8DDA0FE162054 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E9FDC3D1FDC11ED32B2F7C5BFBE20C /* Pods-SmoothButtonExample-dummy.m in Sources */,
+				2FC3A2CBE54D8B6FD43B5DA1C363B75C /* AppDelegate.swift in Sources */,
+				C0F543CB8F4D9D90D83C6111A25CCDDC /* FontAwesome.swift in Sources */,
+				7ABD238B70B2AA8C83BBED797A3EE377 /* FontLoader.swift in Sources */,
+				1A475C2B17C21F44D476089A602DF434 /* Iconic.swift in Sources */,
+				A12498EF25E31AF59E04F354D66EBF3A /* IonIcons.swift in Sources */,
+				EB89120E2175A708E0494FD965CABA39 /* MapIcon.swift in Sources */,
+				1B3491D1324D5043EE1F36C88D0668A7 /* MaterialIcon.swift in Sources */,
+				7B8F1CFB26A4091FF5DCCF57DFBB1634 /* Octicon.swift in Sources */,
+				9FCDE7429A590E2650BAA9CE183551E9 /* SmoothButton-dummy.m in Sources */,
+				31325E59EEC44D64D32898E2001B4983 /* SmoothButton.swift in Sources */,
+				C0CC56FAB3D19E8EBE057DA2047343F8 /* SwiftIconFont.swift in Sources */,
+				41BFB2330A3D1247F956CCC5E84E3E1D /* SwiftIconLabel.swift in Sources */,
+				35BDC17C2A5744D09F7D4E68DB022B13 /* ThemifyIcon.swift in Sources */,
+				E9F9B99A4072AA8E47D0E8B99B3B1159 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4F31637FE78A2A4FDC978103FEF8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1E25C740013A57EB43C2EC74FD3804 /* Pods-SmoothButtonExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5464C5F061930B77DE4FDCEA7CDA5FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmoothButton;
+			target = 06108C00EADBF463071BC12FF0C7F247 /* SmoothButton */;
+			targetProxy = E4A67728A567AF8851218477F92B24C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0CDCEAF731F9009E32BD4791A0313CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E7F27D2DADA763518392AAAF912FA4 /* Pods-SmoothButtonExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmoothButtonExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmoothButtonExample/Pods-SmoothButtonExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D4616DB327DE301479E13E72637F09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDD2B22E2D22CFD7E2AEDEC6B726C15 /* SmoothButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmoothButton/SmoothButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmoothButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmoothButton/SmoothButton.modulemap";
+				PRODUCT_MODULE_NAME = SmoothButton;
+				PRODUCT_NAME = SmoothButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,41 +542,7 @@
 			};
 			name = Debug;
 		};
-		8B21E15CA369F330F57B899702567E22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28E7F27D2DADA763518392AAAF912FA4 /* Pods-SmoothButtonExample.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SmoothButtonExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SmoothButtonExample/Pods-SmoothButtonExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		900DE9560C12BC99BE60C80D8ACF173B /* Release */ = {
+		81246A8106619A1DB985CF87EB1F6864 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D70299BB09492B91EE1F1A8E38B931C0 /* Pods-SmoothButtonExample.release.xcconfig */;
 			buildSettings = {
@@ -335,6 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -400,23 +636,65 @@
 			};
 			name = Release;
 		};
+		F302831D2F271F21E832774FFC6EA1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDD2B22E2D22CFD7E2AEDEC6B726C15 /* SmoothButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmoothButton/SmoothButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmoothButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmoothButton/SmoothButton.modulemap";
+				PRODUCT_MODULE_NAME = SmoothButton;
+				PRODUCT_NAME = SmoothButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		275649E0164D8F45211725EA3B42C8BA /* Build configuration list for PBXNativeTarget "Pods-SmoothButtonExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B21E15CA369F330F57B899702567E22 /* Debug */,
-				900DE9560C12BC99BE60C80D8ACF173B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
 				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595BB73E6C425C7CAEA8F99F465C2A3D /* Build configuration list for PBXNativeTarget "Pods-SmoothButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDCEAF731F9009E32BD4791A0313CF8 /* Debug */,
+				81246A8106619A1DB985CF87EB1F6864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		729AD2E3E971681591CD2A73EC21768A /* Build configuration list for PBXNativeTarget "SmoothButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F302831D2F271F21E832774FFC6EA1E1 /* Debug */,
+				4D4616DB327DE301479E13E72637F09F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

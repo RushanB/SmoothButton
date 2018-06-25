@@ -1,0 +1,6 @@
+framework module SmoothButton {
+  umbrella header "SmoothButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

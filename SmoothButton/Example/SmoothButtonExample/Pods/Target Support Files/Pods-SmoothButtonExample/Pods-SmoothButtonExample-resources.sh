@@ -91,26 +91,6 @@ EOM
       ;;
   esac
 }
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/FontAwesome.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/Ionicons.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/map-icons.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/MaterialIcons-Regular.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/octicons.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/open-iconic.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/SmoothButton.xib"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/themify.ttf"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/FontAwesome.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/Ionicons.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/map-icons.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/MaterialIcons-Regular.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/octicons.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/open-iconic.ttf"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/SmoothButton.xib"
-  install_resource "${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/themify.ttf"
-fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

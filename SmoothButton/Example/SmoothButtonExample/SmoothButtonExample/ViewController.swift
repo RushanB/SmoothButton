@@ -7,19 +7,17 @@
 //
 
 import UIKit
+import SmoothButton
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    @IBAction func action(_ sender: SmoothButton) {
+        sender.isLoading = true
+        let deadlineTime = DispatchTime.now() + .seconds(3)
+        DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
+            sender.isLoading = false
+            // DO SOMETHING
+        }
+    }    
 }
 

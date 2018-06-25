@@ -99,7 +99,7 @@
 				584E9F6520E071F90016D5A2 /* Sources */,
 				584E9F6620E071F90016D5A2 /* Frameworks */,
 				584E9F6720E071F90016D5A2 /* Resources */,
-				0CBECF68CD025C025AC26F84 /* [CP] Copy Pods Resources */,
+				7A0B673142DF0C31B0D1BD62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,36 +157,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CBECF68CD025C025AC26F84 /* [CP] Copy Pods Resources */ = {
+		7A0B673142DF0C31B0D1BD62 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SmoothButtonExample/Pods-SmoothButtonExample-resources.sh",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/FontAwesome.ttf",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/Ionicons.ttf",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/map-icons.ttf",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/MaterialIcons-Regular.ttf",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/octicons.ttf",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/open-iconic.ttf",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/SmoothButton.xib",
-				"${PODS_ROOT}/SmoothButton/SmoothButton/SmoothButton/Resources/themify.ttf",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmoothButtonExample/Pods-SmoothButtonExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SmoothButton/SmoothButton.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/map-icons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons-Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/open-iconic.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SmoothButton.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/themify.ttf",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SmoothButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmoothButtonExample/Pods-SmoothButtonExample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmoothButtonExample/Pods-SmoothButtonExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BAFB293D8600B9411C72D350 /* [CP] Check Pods Manifest.lock */ = {
