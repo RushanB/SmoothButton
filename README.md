@@ -73,8 +73,6 @@ _Note: if **Image source** is set, every other property about the font icon on t
 
 Drag and drop an `UIView` object into your view controller and set its class and module to `SmoothButton`.
 
-![class](https://github.com/loregr/LGButton/blob/develop/media/class_name.png)
-
 Customise your button by setting the properties from the Interface Builder.
 
 ![properties_1](https://github.com/loregr/LGButton/blob/develop/media/properties_1.jpg) ![properties_2](https://github.com/loregr/LGButton/blob/develop/media/properties_2.jpg)
@@ -153,3 +151,4 @@ _NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 ## Credits
 [SwiftIconFont](https://github.com/0x73/SwiftIconFont) project is used in order to provide ready to use icons.
+[LGButton](https://github.com/loregr/LGButton) is the framework used to create this button.
