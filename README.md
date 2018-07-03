@@ -151,4 +151,5 @@ _NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 ## Credits
 [SwiftIconFont](https://github.com/0x73/SwiftIconFont) project is used in order to provide ready to use icons.
+
 [LGButton](https://github.com/loregr/LGButton) is the framework used to create this button.
