@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SmoothButton"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A custom buttom subclass of UIControl."
   s.swift_version = "4.0"
   s.description  = "A custom button made in Swift subclass of UIControl to easily style buttons."
