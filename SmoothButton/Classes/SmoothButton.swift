@@ -100,6 +100,14 @@ public class SmoothButton: UIControl {
         }
     }
     
+    public var attributedString: NSAttributedString? {
+        set {
+            titleLbl.attributedText = newValue
+        }
+        get {
+            return titleLbl.attributedText
+        }
+    }
     
     // MARK: - Inspectable properties
     // MARK:
