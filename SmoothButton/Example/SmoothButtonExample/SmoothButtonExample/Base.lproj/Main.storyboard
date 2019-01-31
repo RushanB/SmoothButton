@@ -613,9 +613,6 @@
                                                             <userDefinedRuntimeAttribute type="color" keyPath="loadingSpinnerColor">
                                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="color" keyPath="loadingColor">
-                                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                            </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="loadingString" value="Loading"/>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="loadingFontSize">
                                                                 <real key="value" value="12"/>
@@ -694,9 +691,6 @@
                                                                 <real key="value" value="32"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="loadingSpinnerColor">
-                                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="color" keyPath="loadingColor">
                                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="loadingString" value="Loading"/>

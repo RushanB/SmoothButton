@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		58D6FC9620DF960F005D64FC /* SmoothButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D6FC9420DF960F005D64FC /* SmoothButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58D6FC9D20DF961B005D64FC /* SmoothButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FC9C20DF961B005D64FC /* SmoothButton.swift */; };
-		58D6FDA720DF9805005D64FC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 58D6FD9C20DF9805005D64FC /* LICENSE */; };
-		58D6FDA820DF9805005D64FC /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9D20DF9805005D64FC /* Octicon.swift */; };
-		58D6FDA920DF9805005D64FC /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9E20DF9805005D64FC /* Iconic.swift */; };
-		58D6FDAA20DF9805005D64FC /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9F20DF9805005D64FC /* FontLoader.swift */; };
-		58D6FDAB20DF9805005D64FC /* MapIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA020DF9805005D64FC /* MapIcon.swift */; };
-		58D6FDAC20DF9805005D64FC /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA120DF9805005D64FC /* MaterialIcon.swift */; };
-		58D6FDAD20DF9805005D64FC /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA220DF9805005D64FC /* IonIcons.swift */; };
-		58D6FDAE20DF9805005D64FC /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA320DF9805005D64FC /* SwiftIconLabel.swift */; };
-		58D6FDAF20DF9805005D64FC /* ThemifyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA420DF9805005D64FC /* ThemifyIcon.swift */; };
-		58D6FDB020DF9805005D64FC /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA520DF9805005D64FC /* FontAwesome.swift */; };
-		58D6FDB120DF9805005D64FC /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA620DF9805005D64FC /* SwiftIconFont.swift */; };
+		AA32A64B220351AB00C572D6 /* SmoothButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FC9C20DF961B005D64FC /* SmoothButton.swift */; };
+		AA32A64C220351AB00C572D6 /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9D20DF9805005D64FC /* Octicon.swift */; };
+		AA32A64D220351AB00C572D6 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9E20DF9805005D64FC /* Iconic.swift */; };
+		AA32A64E220351AB00C572D6 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FD9F20DF9805005D64FC /* FontLoader.swift */; };
+		AA32A64F220351AB00C572D6 /* MapIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA020DF9805005D64FC /* MapIcon.swift */; };
+		AA32A650220351AB00C572D6 /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA120DF9805005D64FC /* MaterialIcon.swift */; };
+		AA32A651220351AB00C572D6 /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA220DF9805005D64FC /* IonIcons.swift */; };
+		AA32A652220351AB00C572D6 /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA320DF9805005D64FC /* SwiftIconLabel.swift */; };
+		AA32A653220351AB00C572D6 /* ThemifyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA420DF9805005D64FC /* ThemifyIcon.swift */; };
+		AA32A654220351AB00C572D6 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA520DF9805005D64FC /* FontAwesome.swift */; };
+		AA32A655220351AB00C572D6 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6FDA620DF9805005D64FC /* SwiftIconFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,10 +90,8 @@
 			children = (
 				58D6FDB420DF9898005D64FC /* LICENSE.md */,
 				58D6FC9420DF960F005D64FC /* SmoothButton.h */,
-				58D6FDC220DF993B005D64FC /* Example */,
 				5857E1E020E05E9A00B1C600 /* Classes */,
 				58D6FDB920DF991C005D64FC /* Resources */,
-				58D6FDB720DF9904005D64FC /* Assets */,
 				58D6FDB820DF9915005D64FC /* .gitignore */,
 				58D6FC9520DF960F005D64FC /* Info.plist */,
 			);
@@ -119,13 +116,6 @@
 			path = SwiftIconFont;
 			sourceTree = "<group>";
 		};
-		58D6FDB720DF9904005D64FC /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		58D6FDB920DF991C005D64FC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +129,6 @@
 				58D6FDC120DF991C005D64FC /* SmoothButton.xib */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		58D6FDC220DF993B005D64FC /* Example */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +152,7 @@
 				58D6FC8C20DF960F005D64FC /* Sources */,
 				58D6FC8D20DF960F005D64FC /* Frameworks */,
 				58D6FC8E20DF960F005D64FC /* Headers */,
-				58D6FC8F20DF960F005D64FC /* Resources */,
+				AA32A64222034ECB00C572D6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -214,11 +197,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		58D6FC8F20DF960F005D64FC /* Resources */ = {
+		AA32A64222034ECB00C572D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D6FDA720DF9805005D64FC /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,17 +211,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D6FDAF20DF9805005D64FC /* ThemifyIcon.swift in Sources */,
-				58D6FDAE20DF9805005D64FC /* SwiftIconLabel.swift in Sources */,
-				58D6FDAA20DF9805005D64FC /* FontLoader.swift in Sources */,
-				58D6FDAD20DF9805005D64FC /* IonIcons.swift in Sources */,
-				58D6FDB020DF9805005D64FC /* FontAwesome.swift in Sources */,
-				58D6FDA920DF9805005D64FC /* Iconic.swift in Sources */,
-				58D6FDB120DF9805005D64FC /* SwiftIconFont.swift in Sources */,
-				58D6FDAB20DF9805005D64FC /* MapIcon.swift in Sources */,
-				58D6FC9D20DF961B005D64FC /* SmoothButton.swift in Sources */,
-				58D6FDAC20DF9805005D64FC /* MaterialIcon.swift in Sources */,
-				58D6FDA820DF9805005D64FC /* Octicon.swift in Sources */,
+				AA32A64B220351AB00C572D6 /* SmoothButton.swift in Sources */,
+				AA32A64C220351AB00C572D6 /* Octicon.swift in Sources */,
+				AA32A64D220351AB00C572D6 /* Iconic.swift in Sources */,
+				AA32A64E220351AB00C572D6 /* FontLoader.swift in Sources */,
+				AA32A64F220351AB00C572D6 /* MapIcon.swift in Sources */,
+				AA32A650220351AB00C572D6 /* MaterialIcon.swift in Sources */,
+				AA32A651220351AB00C572D6 /* IonIcons.swift in Sources */,
+				AA32A652220351AB00C572D6 /* SwiftIconLabel.swift in Sources */,
+				AA32A653220351AB00C572D6 /* ThemifyIcon.swift in Sources */,
+				AA32A654220351AB00C572D6 /* FontAwesome.swift in Sources */,
+				AA32A655220351AB00C572D6 /* SwiftIconFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +366,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RB.tech.Smooth.SmoothButton;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -410,6 +393,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RB.tech.Smooth.SmoothButton;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;

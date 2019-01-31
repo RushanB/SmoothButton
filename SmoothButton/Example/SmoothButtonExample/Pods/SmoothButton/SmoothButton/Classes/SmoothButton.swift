@@ -100,6 +100,14 @@ public class SmoothButton: UIControl {
         }
     }
     
+    public var attributedString: NSAttributedString? {
+        set {
+            titleLbl.attributedText = newValue
+        }
+        get {
+            return titleLbl.attributedText
+        }
+    }
     
     // MARK: - Inspectable properties
     // MARK:
@@ -435,21 +443,21 @@ public class SmoothButton: UIControl {
         
         
         let shadowAnimation = CABasicAnimation(keyPath: "shadowOpacity")
-        shadowAnimation.fillMode = kCAFillModeForwards
+        shadowAnimation.fillMode = CAMediaTimingFillMode.forwards
         shadowAnimation.isRemovedOnCompletion = false
         shadowAnimation.fromValue = shadowOpacityFromValue
         shadowAnimation.toValue = shadowOpacityToValue
         shadowAnimation.duration = duration
         
         let shadowRadiusAnimation = CABasicAnimation(keyPath: "shadowRadius")
-        shadowRadiusAnimation.fillMode = kCAFillModeForwards
+        shadowRadiusAnimation.fillMode = CAMediaTimingFillMode.forwards
         shadowRadiusAnimation.isRemovedOnCompletion = false
         shadowRadiusAnimation.fromValue = shadowRadiusFromValue
         shadowRadiusAnimation.toValue = shadowRadiusToValue
         shadowRadiusAnimation.duration = duration
         
         let alphaAnimation = CABasicAnimation(keyPath: "opacity")
-        alphaAnimation.fillMode = kCAFillModeForwards
+        alphaAnimation.fillMode = CAMediaTimingFillMode.forwards
         alphaAnimation.isRemovedOnCompletion = false
         alphaAnimation.fromValue = opacityFromValue
         alphaAnimation.toValue = opacityToValue
@@ -614,7 +622,7 @@ public class SmoothButton: UIControl {
     }
     
     fileprivate func setupLoadingView(){
-        loadingSpinner.activityIndicatorViewStyle = .whiteLarge
+        loadingSpinner.style = .whiteLarge
         loadingLabel.isHidden = loadingString.isEmpty
         loadingLabel.text = loadingString
         loadingLabel.textColor = loadingTitleColor
@@ -693,7 +701,7 @@ public class SmoothButton: UIControl {
         
         
         let animation =      CABasicAnimation(keyPath: "opacity")
-        animation.fillMode = kCAFillModeForwards
+        animation.fillMode = CAMediaTimingFillMode.forwards
         animation.isRemovedOnCompletion = false
         animation.toValue = 0.5
         animation.fromValue = 1.0
@@ -709,7 +717,7 @@ public class SmoothButton: UIControl {
     fileprivate func xibSetup() {
         rootView = loadViewFromNib()
         rootView.frame = bounds
-        rootView.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+        rootView.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth, UIView.AutoresizingMask.flexibleHeight]
         addSubview(rootView)
         leadingLoadingConstraint.isActive = false
         trailingLoadingConstraint.isActive = false

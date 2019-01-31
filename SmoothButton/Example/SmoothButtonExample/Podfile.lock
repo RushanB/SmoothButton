@@ -1,5 +1,5 @@
 PODS:
-  - SmoothButton (0.0.2)
+  - SmoothButton (0.0.3)
 
 DEPENDENCIES:
   - SmoothButton
@@ -9,7 +9,7 @@ SPEC REPOS:
     - SmoothButton
 
 SPEC CHECKSUMS:
-  SmoothButton: bc05b95f34b389f11e555acdc5b3eb30c3ff1cfe
+  SmoothButton: 993d5d9c80828754adac8444586fb06f392d5298
 
 PODFILE CHECKSUM: 2f727dfbc365254b2862b33e6b93a167ad527af9
 
