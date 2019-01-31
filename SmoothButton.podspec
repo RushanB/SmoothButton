@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "SmoothButton"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A custom buttom subclass of UIControl."
-  s.swift_version = "4.0"
+  s.swift_version = "4.2"
   s.description  = "A custom button made in Swift subclass of UIControl to easily style buttons."
   s.homepage     = "https://cocoapods.org/pods/SmoothButton"
   s.license      = { :type => 'MIT', :file => 'SmoothButton/LICENSE.md' }
